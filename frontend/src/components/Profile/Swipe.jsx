@@ -13,7 +13,7 @@ function Swipe() {
       method: "GET",
       url: configData.SERVER_URL + "profiles",
       params: {
-        id: '63'
+        id: configData.USER_ID
       }
     })
     .then((response) => {
