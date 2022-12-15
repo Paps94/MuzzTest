@@ -27,7 +27,7 @@ After pulling the code you would need to do the following things:
   - D) While at it run your local server enviroment. As mentioned above I use WAMPServer and created a virtualHost for this project or go into the index.php directory and run php -S localhost:3000
        or whichever port you want to run the backend
   - E) Go into /frontend and run `npm install` to install all dependancies
-  - F) While in that folder run `npm run dev` to start the react project. If everything goes well you should see the project ready to test it!
+  - F) While in that folder run `npm run dev` to start the react project. If everything goes well you should see the project ready to test it! (if you run into any autoloader problems running `composer dump-autoload` should fix those!
 
 ### Over the top run down
 
