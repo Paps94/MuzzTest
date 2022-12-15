@@ -89,9 +89,9 @@ class UsersController {
      * Returns all the possible matches for a user
      */
     public function possibleMatches() {
-       if(!isset($_SESSION['access_token']) ){
-         header("Location: http://muzz.test/api/login");
-       }
+       // if(!isset($_SESSION['access_token']) ){
+       //   header("Location: http://muzz.test/api/login");
+       // }
       try {
         //Retrive our parameters
         $id = $_GET['id'];
@@ -130,9 +130,9 @@ class UsersController {
      * Respond to a profile and store in the database
      */
     public function swipe() {
-       if(!isset($_SESSION['access_token']) ){
-         header("Location: http://muzz.test/api/login");
-       }
+       // if(!isset($_SESSION['access_token']) ){
+       //   header("Location: http://muzz.test/api/login");
+       // }
       try {
         //Retrive our parameters
         $userID = $_REQUEST['userid'];
